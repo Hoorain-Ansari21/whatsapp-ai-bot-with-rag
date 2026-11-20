@@ -1,0 +1,15 @@
+# Local environment files
+.env*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Crawled pages, vector index, downloaded model, chat history
+data/
+
+# macOS
+.DS_Store
+__MACOSX/
